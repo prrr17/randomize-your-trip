@@ -89,7 +89,7 @@ const citiesAndCodes = [
 let citiesArray = [];
 let lengthOfArray = citiesAndCodes.length;
 let randomCity;
-const apiKey = "c0e9a36b9a44082fc9028d13d49a4126";
+let apiKey = config.APIKey;
 
 //Open HoodMapss on Click
 function openHoodmaps() {
@@ -117,8 +117,6 @@ function openNumbeo() {
     }
   };
 }
-
-
 
 //Clear input after result is shown
 function clearInput() {
